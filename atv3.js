@@ -7,6 +7,7 @@ function desconto(code, valor){
             console.log('DESCONTO VÁLIDO', 0.20 * valor)
             break;
         default:
+            console.log('DESCONTO INVÁLIDO')
             break;
     }
         
